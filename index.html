@@ -8,11 +8,19 @@
 </head>
 <body>
     <div class="wrapper">
-        <h2 class="question">Tối nay anh đón em đi xem phim nhé?</h2>
-        <img class="gif" alt="gif" src="https://media0.giphy.com/media/t8Lo2mPAzOcmVTgtGe/giphy.gif?cid=6c09b952231uyrnduhdsf4wqnxz03rv9wx3ni5sm0zolrxz3&ep=v1_stickers_related&rid=giphy.gif&ct=s"/>
-        <div class="btn-group">
-            <button class="yes-btn">Yes</button>
-            <button class="no-btn">No</button>
+        <div class="password-section">
+            <h2 class="password-question">Vui lòng nhập mật khẩu:</h2>
+            <input type="password" class="password-input"/>
+            <button class="password-btn">Xác minh</button>
+            <p class="password-error" style="color: red; display: none;">Sai mật khẩu, vui lòng thử lại.</p>
+        </div>
+        <div class="question-section" style="display: none;">
+            <h2 class="question"></h2>
+            <img class="gif" alt="gif" src="" style="display:none;"/>
+            <div class="btn-group">
+                <button class="choice-btn choice-1"></button>
+                <button class="choice-btn choice-2"></button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

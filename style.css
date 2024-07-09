@@ -46,3 +46,36 @@ button:nth-child(2) {
     background: white;
     color: #e94d58;
 }
+.password-section {
+    text-align: center;
+    margin-top: 20vh; /* Điều chỉnh khoảng cách từ trên xuống */
+}
+
+.password-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 300px; /* Điều chỉnh độ rộng của ô nhập */
+    text-align: left; /* Căn chỉnh văn bản sang trái */
+}
+
+.password-btn {
+    padding: 10px 20px; /* Điều chỉnh padding để nút to hơn */
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.password-btn:hover {
+    background-color: #0056b3;
+}
+
+.password-error {
+    margin-top: 10px;
+}
